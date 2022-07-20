@@ -1,0 +1,57 @@
+body {
+    /* background: #3498db; */
+  }
+  
+  .App {
+    /* font-family: sans-serif;
+    padding: 10px 50px; */
+  }
+  
+  .App > div {
+    background-color: #fff;
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .arrow {
+    position: absolute;
+    color: #000000;
+    font-size: 2.5em;
+    font-weight: bold;
+  
+    cursor: pointer;
+  }
+  
+  .nextArrow {
+    top: 0;
+    right: -45px;
+  }
+  
+  .prevArrow {
+    top: 0;
+    left: -45px;
+  }
+  
+
+
+  .content4{
+    margin-top: 85%;
+    display: flex;
+    justify-content: center;
+}
+.content4-a{
+    display: flex;
+    margin: 20px;
+}
+
+.content4-a-left{
+    width: 200px;
+    height: 260px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.content4-a-right{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
