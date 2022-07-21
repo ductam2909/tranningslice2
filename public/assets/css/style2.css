@@ -154,14 +154,50 @@ p{
 .content{
     margin-top: 200px;
 }
-.content1{
-    display: flex;
+.container{
+    padding: 40px;
 }
-.content1-a h1{
-    font-size: 65px;
+.content1{
+    /* padding-top: 100px; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.content1 p{
+    /* margin-right: 1000px; */
+    position: relative;
+    right: 100px;
+    /* font-size: 16px; */
+    color: #fff;
+    
+}
+.content1-p span{
+    font-size: 16px;
+    color: #E8A929;
+}
+
+/* .content1-b p{
+    position: relative;
+    top: 250px;
+    right: 180px;
+    font-size: 16px;
+    color: #fff;
+} */
+.content1 span{
+    font-size: 16px;
+    color: #E8A929;
+}
+.content1-left{
+    /* background-color: blueviolet; */
+    width: 50vw;
+    height: 50vh;
+    text-align: left;
+}
+.content1-left h1{
+    font-size: 95px;
     color: #fff;
 }
-.content1-a h2{
+.content1-left h2{
     font-size: 65px;
     color: #E8A929;
     font-family: 'NINJA FIGHTER';
@@ -170,40 +206,30 @@ p{
     font-size: 225px;
     line-height: 170px;
 }
-.content1-a h3{
+.content1-left h3{
     font-size: 45px;
     color: #fff;
 }
-.content1-b {
-    display: flex;
-}
-.content1-b p{
-    position: relative;
-    top: 250px;
-    right: 180px;
-    font-size: 16px;
+
+p{color: #fff;}
+.content1-p p{
+    position: absolute;
+    right: 150px;
+    top: 80vh;
     color: #fff;
-}
-.content1-b span{
-    font-size: 16px;
-    color: #E8A929;
+    /* width: 100px; */
 }
 .content2{
     display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    height: 200px;
     justify-content: center;
-}
-.content2 img{
-    /* padding-right: 50px;
-    padding-left: 20px; */
 }
 .content2-a h1{
     font-size: 55px;
     color: #fff;
     padding-bottom: 30px;
-}
-.content2-a p{
-padding: 10px 0 10px 0;
-
 }
 .content2-a{
     width: 250px;
@@ -215,18 +241,22 @@ padding: 10px 0 10px 0;
     margin: 30px;
 
 }
+.content2 img{
+    padding-right: 50px;
+    padding-left: 20px;
+}
 .content2-a button{
     background-image: url("/assets/img/button2.jpg");
     background-size: cover;
     height: 50px;
     width: 200px;
     position: relative;
+    top: 20px;
     right: 30px;
 }
-
 .content3{
     position: relative;
-    top: 100px;
+    top: 120px;
     height: 500px;
     
 }
@@ -768,3 +798,210 @@ color: #E8A929;
     bottom: 100px;
     height: 1px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background: none;
+        background-color: #000;
+    }
+    .content1{
+        display: block;
+    }
+    .content1-b{
+        /* display: inline; */
+    }
+    .content1-b p{
+        width: 300px;
+        position: relative;
+        top: 100vh;
+        /* background-color: red; */
+        /* margin-bottom: -100px; */
+    }
+    .content2{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    body{
+        background: none;
+        background-color: #000;
+    }
+    .content{
+        margin-top: 100px;
+    }
+    .content1{
+        display: block;
+    }
+
+    .content1{
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        /* margin: 40px; */
+    }
+    .content1-p p{
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        top: 100vh;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        color: #fff;
+        /* width: 100px; */
+    }
+    .content1-p span{
+        font-size: 16px;
+        color: #E8A929;
+    }
+    .content1-left{
+        text-align: center;
+        display: inline;
+    }
+    .content1 img{
+        width: 300px;
+        justify-content: center;
+    }
+    .content1 p{
+        /* margin-right: 1000px; */
+        position: relative;
+        right: -20px;
+        color: #fff;
+    }
+    .content1-left h1{
+        font-size: 55px;
+        color: #fff;
+    }
+    .content1-left h2{
+        font-size: 95px;
+        color: #E8A929;
+        font-family: 'NINJA FIGHTER';
+        font-style: normal;
+        font-weight: 40;
+        line-height: 100px;
+    }
+    .content1-left h3{
+        font-size: 25px;
+        color: #fff;
+    }
+    .content2{
+        height: 500px;
+        display: block;
+        /* background-color: blue; */
+        /* align-items: center;
+        justify-content: center; */
+        
+    }
+    .content2 img{
+        /* background-image: url(/assets/img/line1.jpg); */
+        transform: rotate(100deg);
+        /* position: absolute; */
+        height: 200px;
+        width: 50px;
+        /* margin: -40px; */
+        top: -100px;
+        margin-top: -30px;
+        margin-bottom: -100px;
+    }
+
+    .content2-a{
+        position: relative;
+        right: 25%;
+        left: 25%;
+        text-align: left;
+    }
+    .content2-a p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .content2-a button{
+        position: relative;
+        left: 5%;
+        top: 20px;
+        bottom: 20px;
+    }
+    .content3-a{
+        position: relative;
+        top: 480px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        text-align: center;
+        /* font-weight: 700; */
+        line-height: 80px;
+    }
+
+    .content3-a h1{
+        font-size: 30px;
+        color: #fff;
+    }
+    .content3-a h2{
+        font-size: 80px;
+        color: #E8A929;
+    }
+    .content3-b{
+        position: relative;
+        top: 400px;
+    }
+    .content3-b p{
+        color: #fff;
+        position: absolute;
+        /* top: 50%; */
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+    }
+    
+    
+    .content3-c{
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .content3-c img{
+        position: relative;
+        right: 100px;
+        /* left: 50%; */
+    }
+    
+    .content3-c p{
+        color: rgb(161, 45, 45);
+        position: absolute;
+        /* top: 50%; */
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+    }
+    .content3-d{
+        position: relative;
+        top: 800px;
+    }
+    .content3-e{
+        position: relative;
+        top: 400px;
+    }
+    .container{
+        /* display: block; */
+        /* align-items: center; */
+        text-align: center;
+        padding: 0px;
+    }
+  }

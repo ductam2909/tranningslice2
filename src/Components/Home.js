@@ -1,5 +1,4 @@
 import React from 'react'
-import Slickslider from './Slickslide'
 import "../style.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -180,17 +179,15 @@ export default function Home() {
         </div>
       </div>
       <div className="content">
-        <div className="content1">
-          <div className="content1-a">
+      <div className="content1">
+          <div className="content1-left">
             <h1>Fully doxxed &amp;</h1>
             <h2>kicka$$</h2>
             <h3>NINJAS OF THE METAVERSE</h3>
           </div>
-          <div className="content1-b">
-            <img src="assets/img/ninja.jpg" alt="" />
-            <p>artist <span>moon dog</span></p>
-          </div>
+          <img src="/assets/img/ninja.jpg" alt="" />
         </div>
+        <div className="content1-p"><p>artist <span>moon dog</span></p></div>
         <div className="content2">
           <div className="content2-a">
             <h1>Artists</h1>
@@ -325,7 +322,7 @@ export default function Home() {
         <img src="/assets/img/ninja8.png" alt="" />
         <div className="content9-a1">
           <h2>are you a</h2>
-          <h1>minja?</h1>
+          <h1>minja? </h1>
         </div>
       </div>
       <div className="content9-b">
