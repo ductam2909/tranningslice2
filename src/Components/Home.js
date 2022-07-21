@@ -196,15 +196,15 @@ export default function Home() {
           </div>
           <img src="assets/img/line1.jpg" alt="" />
           <div className="content2-a">
-            <h1>Artists</h1>
-            <p>Proven and fully screened Web3 artists; from NFT artists to  virtual and augmented reality designers.</p>
-            <button>search artists</button>
+            <h1>Developers</h1>
+            <p>Seasoned software engineers, minting coders, and architects with expertise in the Web3 industry.</p>
+            <button>find a developer</button>
           </div>
           <img src="assets/img/line1.jpg" alt="" />
           <div className="content2-a">
-            <h1>Artists</h1>
-            <p>Proven and fully screened Web3 artists; from NFT artists to  virtual and augmented reality designers.</p>
-            <button>search artists</button>
+          <h1>CM’s & mods</h1>
+          <p>we can agree that Managing a community sucks! Find the best community managers and Discord mods in the industry.</p>
+          <button>get community help</button>
           </div>
         </div>
         <div className="content3">

@@ -126,6 +126,9 @@ body{
       float: right;
       display: block;
     }
+    .topnav{
+        margin-left: 200px;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -920,6 +923,9 @@ color: #E8A929;
         right: 25%;
         left: 25%;
         text-align: left;
+    }
+    .content2-a h1{
+        font-size: 40px;
     }
     .content2-a p{
         font-weight: 400;
